@@ -271,6 +271,12 @@ ul a:hover
     max-height: 500px;
     max-width: 500px;
   }
+    
+    .uzne-jarda img
+  {
+    max-width: 90vw;
+    max-height: auto;
+  }
 }
 
 @media (max-width: 992px) 
@@ -323,5 +329,11 @@ ul a:hover
   { 
     max-height: 500px;
     max-width: 500px;
+  }
+    
+    .uzne-jarda img
+  {
+    max-width: 90vw;
+    max-height: auto;
   }
 }
