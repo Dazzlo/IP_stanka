@@ -277,6 +277,12 @@ ul a:hover
     max-width: 90vw;
     max-height: auto;
   }
+    
+    .contact
+  {
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 @media (max-width: 992px) 
