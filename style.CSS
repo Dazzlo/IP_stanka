@@ -278,7 +278,7 @@ ul a:hover
     max-height: auto;
   }
     
-    .kontakt
+  .kontakt
   {
     flex-direction: column;
     justify-content: space-between;
@@ -341,5 +341,11 @@ ul a:hover
   {
     max-width: 90vw;
     max-height: auto;
+  }
+    
+    .kontakt
+  {
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
