@@ -212,7 +212,68 @@ ul a:hover
   background-color: white;
 }
 
-@media only screen and (max-width: 600px) 
+.kontakt a h3
+{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+@media (max-width: 600px) 
+{
+  .menu_desc
+  {
+    display: none;
+  }
+
+  .menu_mobil 
+  {
+    display: block;
+  }
+
+  .bruh
+  {
+    flex-direction: column-reverse;
+    
+  }
+
+  .cerne
+  {
+    height: 250px;
+    width: 250px;
+  }
+  
+  h2
+  {
+    font-size: medium;
+  }
+
+  h3
+  {
+    font-size: medium;
+  }
+
+  .skoro-jarda
+  {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .uzne-jarda
+  {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .Jarda img
+  { 
+    max-height: 500px;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 992px) 
 {
   .menu_desc
   {
@@ -264,4 +325,3 @@ ul a:hover
     max-width: 500px;
   }
 }
-
