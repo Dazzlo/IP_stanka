@@ -1,0 +1,267 @@
+*
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.odsad
+{
+  padding-left: 3%;
+}
+
+.obrazek
+{
+  background-color: black;
+}
+
+.obrazek img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 500px;
+    max-width: 500px;
+    background-color: black;
+}
+
+.menu_desc
+{
+    word-spacing: normal;
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+    justify-content: center;
+    border-left: 5px white;
+    border-right: 5px white;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: black;
+    
+}
+
+.menu_mobil{
+    word-spacing: normal;
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+    justify-content: center;
+    border-left: 5px white;
+    border-right: 5px white;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: none;
+    position: fixed;
+}
+ 
+.navbar li
+{
+list-style: none;
+display: inline-block;
+margin-left: 50px;
+}
+
+ul a 
+{
+    text-decoration: none;
+    font-size: 50pt;
+    color: white;
+}
+
+ul a:hover
+{
+    
+    background-color: white;
+    font-size: 50pt;
+    color: black;
+    display: inline;
+}
+
+.bruh
+{
+    background-color: white;
+    color: black;
+    padding: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.textak
+{
+  background-color: white;
+}
+
+.bruh h3
+{
+  color: black;
+  background-color: white;
+}
+
+.cerne
+{
+  height: 250px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+  
+.topnav #myLinks
+{
+  display: none;
+}
+  
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+  
+.topnav a.icon {
+  background: none;
+  display: block;
+}
+  
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.omne
+{
+  background-color: white;
+  color: black;
+}
+
+.Jarda
+{
+  background-color: black;
+  color: black;
+}
+
+.Jarda h2
+{
+  padding-left: 2%;
+  color: white;
+}
+
+.uzne-jarda
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.uzne-jarda div
+{ 
+  color: white;
+  margin: 2%;
+  text-align: center;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.skoro-jarda
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.skoro-jarda div
+{
+  background-color: white;
+  margin: 2%;
+  text-align: center;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.Jarda img
+{
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.galer
+{
+  color: white;
+}
+
+.kontakt
+{
+    background-color: white;
+    color: black;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kontakt h3
+{
+  color: black;
+  background-color: white;
+}
+
+@media only screen and (max-width: 600px) 
+{
+  .menu_desc
+  {
+    display: none;
+  }
+
+  .menu_mobil 
+  {
+    display: block;
+  }
+
+  .bruh
+  {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .cerne
+  {
+    height: 250px;
+    width: 250px;
+  }
+  
+  h2
+  {
+    font-size: medium;
+  }
+
+  h3
+  {
+    font-size: medium;
+  }
+
+  .skoro-jarda
+  {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .uzne-jarda
+  {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .Jarda img
+  { 
+    max-height: 500px;
+    max-width: 500xp;
+  }
+}
+
